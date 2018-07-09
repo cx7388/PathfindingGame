@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/map">
+        <file>worldmap4.png</file>
+        <file>maze3.png</file>
+        <file>maze2(1).png</file>
+        <file>maze1.png</file>
+        <file>pig.png</file>
+        <file>penemy.png</file>
+        <file>enemy.png</file>
+        <file>healthPack.jpg</file>
+        <file>grave.jpg</file>
+    </qresource>
+</RCC>

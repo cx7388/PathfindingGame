@@ -1,0 +1,26 @@
+#include "mainwindow.h"
+#include <QApplication>
+#include "world.h"
+#include <QString>
+#include <QFile>
+#include <string>
+#include <vector>
+#include <QtGui>
+
+int main(int argc, char *argv[])
+{
+    QApplication app(argc, argv);
+
+    MainWindow w;
+    w.show();
+<<<<<<< HEAD
+    World * world = new World();
+    //std::string str = "/home/river/Qt5.9.2/qtprojects/team307/assets/worldmap4.png";
+    std::string str = "/home/yunging/team307/assets/worldmap4.png";
+    QString qstr=QString::fromStdString(str);
+    world->createWorld(qstr);
+    return app.exec();
+=======
+    return a.exec();
+>>>>>>> 437b16eaa19a48a821186f60e31c7b1df55dd508
+}
